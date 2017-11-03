@@ -12,8 +12,10 @@ View production version: [MailChimp Registration Form](http://35.199.53.227/)
 5. Add to app.js, look to see if the port is in use, if it is kill it and start the new stuff.
 
 # Completed Tasks
-1. 11/02/2017 - Mobile UI vs Desktop UI - The columns are not stacking.
-   [ **Solution** ] BootStrap4 stacking columns from desktop to mobile. Current work around is to use 12 columns at all times to force them to stack. Ideally I want 12 columns on mobile and 6/6 columns for desktop.
+1. 11/02/2017 - Mobile UI vs Desktop UI - The columns are not stacking.  
+   1. [ **Solution** ] BootStrap4 stacking columns from desktop to mobile. Current work around is to use 12 columns at all times to force them to stack. Ideally I want 12 columns on mobile and 6/6 columns for desktop.
+   2. [ **Solution** ] Changed media queries to increase the size of the UI when below 768px.
+   
 2. 11/02/2017 - Remove SimpleStrips and use External IP
 
 # Road Blocks

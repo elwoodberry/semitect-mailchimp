@@ -4,7 +4,8 @@
   "description": "Mailchimp sign up forms",
   "main": "app.js",
   "scripts": {
-    "prod": "sudo nodejs app.js &"
+    "prod": "sudo nodejs app.js &",
+    "dev": "nodemon app.js"
   },
   "author": "me@elwoodberry.com",
   "license": "ISC",
