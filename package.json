@@ -8,6 +8,10 @@
   },
   "author": "me@elwoodberry.com",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elwoodberry/semitect-mailchimp.git"
+  },
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2"
