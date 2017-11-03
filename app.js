@@ -1,7 +1,9 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const http = require('http');
 
 const app = express();
+const port = process.env.PORT || 80;
 
 // BODY PARSER MIDDLEWARE
 app.use(bodyParser.json());
@@ -14,8 +16,6 @@ app.use(express.static(`${__dirname}/www`));
 app.get('/', (req, res) => {
   res.render('index.html');
 });
-
-const port = process.env.PORT || 80;
 
 app.listen(port, () => {
   console.log('Server has started on :' + port);

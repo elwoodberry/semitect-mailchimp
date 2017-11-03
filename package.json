@@ -4,7 +4,7 @@
   "description": "Mailchimp sign up forms",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prod": "sudo nodejs app.js &"
   },
   "author": "me@elwoodberry.com",
   "license": "ISC",
