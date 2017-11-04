@@ -165,16 +165,16 @@ z-index: 1;
 @media only screen and (max-device-width : 736px) {
 
 h4 {
-  font-size: 40px;
+  font-size: 44px;
 }
 p {
-  font-size: 28px;
+  font-size: 34px;
 }
 .small, small {
-  font-size: 24px;
+  font-size: 34px;
 }
 h4 span {
-  font-size: 28px;
+  font-size: 34px;
 }
 label {
   display: none;
