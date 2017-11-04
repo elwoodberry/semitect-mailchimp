@@ -180,12 +180,12 @@ label {
   display: none;
 }
 .form-control {
-  font-size: 30px;
-  height: 80px;
+  font-size: 40px;
+  height: 130px;
 }
 form .btn {
-  font-size: 34px;
-  height: 80px;
+  font-size: 40px;
+  height: 130px;
 }
 #semitect-card {
   padding: 420px 30px 30px 30px;
