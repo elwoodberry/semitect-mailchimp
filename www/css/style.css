@@ -32,9 +32,15 @@ font-size: 26px !important;
 color: #FFF !important;
 }
 #mce-responses #mce-success-response {
-padding: 60px;
+  display: block;
+  padding: 160px;
+  font-size: 40px;
 }
-
+#mce-responses #mce-error-response {
+  display: block;
+  padding: 160px;
+  font-size: 40px;
+}
 
 /*
 CUSTOM CSS
