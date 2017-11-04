@@ -162,9 +162,8 @@ z-index: 1;
 }
 
 
+@media only screen and (max-device-width : 736px) {
 
-
-@media only all and (min-width:768px) {
 h4 {
   font-size: 40px;
 }
@@ -178,13 +177,15 @@ h4 span {
   font-size: 28px;
 }
 label {
-  font-size: 14px;
+  display: none;
 }
 .form-control {
   font-size: 30px;
+  height: 80px;
 }
 form .btn {
   font-size: 34px;
+  height: 80px;
 }
 #semitect-card {
   padding: 420px 30px 30px 30px;
@@ -209,4 +210,4 @@ form .btn {
   font-size: 50px;
 }
 
-}/* @media only all and (max-width:768px) { */
+}/* @media only screen and (max-device-width : 736px) { */
