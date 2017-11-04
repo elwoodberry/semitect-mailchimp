@@ -30,16 +30,13 @@ background-color: #35478C !important;
 height: 100% !important;
 font-size: 26px !important;
 color: #FFF !important;
+text-align: center;
 }
 #mce-responses #mce-success-response {
-  display: block;
-  padding: 160px;
-  font-size: 40px;
+padding: 60px;
 }
 #mce-responses #mce-error-response {
-  display: block;
-  padding: 160px;
-  font-size: 40px;
+padding: 60px;
 }
 
 /*
@@ -169,7 +166,16 @@ z-index: 1;
 
 
 @media only screen and (max-device-width : 736px) {
-
+#mce-responses #mce-success-response {
+  display: block;
+  padding: 160px;
+  font-size: 40px;
+}
+#mce-responses #mce-error-response {
+  display: block;
+  padding: 160px;
+  font-size: 40px;
+}
 h4 {
   font-size: 44px;
 }
